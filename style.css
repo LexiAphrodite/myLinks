@@ -47,8 +47,8 @@ body {
 .userPhoto {
     display: block;
     margin: 20px auto;
-    width: 110px;
-    height: 140px;
+    width: 210px;
+    height: 240px;
     object-fit: cover;       /* keeps proportions and fills the circle */
     border-radius: 50%;      /* makes it round */
     border: 2px solid black; /* clean outline */
@@ -98,6 +98,7 @@ body {
     color: var(--accentColor);
     
 }
+
 
 
 
