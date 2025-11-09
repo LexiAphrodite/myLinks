@@ -19,8 +19,8 @@
     display: grid;
     width: 32px;
     height: 32px;
-    -webkit-mask: url('fansly.png') center/contain no-repeat;
-    mask: url('fansly.png') center/contain no-repeat;
+    -webkit-mask: url('fansly.svg') center/contain no-repeat;
+    mask: url('fansly.svg') center/contain no-repeat;
     background: currentColor; /* icon inherits text color */
 }
 .icons8-discord { 
@@ -122,4 +122,5 @@
     background-size: 100%; 
 
 }
+
 
