@@ -19,8 +19,9 @@
     display: grid;
     width: 32px;
     height: 32px;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGRlZnM+CiAgPHN0eWxlPi5jbHMtMXtmaWxsOiMwMGJjZDQ7fTwvc3R5bGU+CjwvZGVmcz4KPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTYgMjhzLTYuMy00LjctOS45LTguN0MzLjcgMTYuNiAzIDE0LjkgMyAxM2MwLTIuNyAyLjEtNC45IDQuNy00LjkgMS42IDAgMy4xLjkgNCAyLjMgLjktMS40IDIuNC0yLjMgNC0yLjMgMi42IDAgNC43IDIuMiA0LjcgNC45IDAgMS45LS43IDMuNi0zLjEgNi4zQzIyLjMgMjMuMyAxNiAyOCAxNiAyOHoiLz4KPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE0IDEyaDR2MmgtdjJoMnYyaC00eiIvPgo8L3N2Zz4=') 50% 50% no-repeat;
-    background-size: 100%;
+    -webkit-mask: url('fansly.png') center/contain no-repeat;
+    mask: url('fansly.png') center/contain no-repeat;
+    background: currentColor; /* icon inherits text color */
 }
 .icons8-discord { 
     display: grid;
@@ -121,3 +122,4 @@
     background-size: 100%; 
 
 }
+
